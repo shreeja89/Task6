@@ -1,13 +1,13 @@
 # Task6
-Objective
+## Objective
 Analyze monthly revenue and order volume using SQL aggregations on a real-world sales dataset.
 
-Tools Used
+## Tools Used
 Microsoft Excel 
 
 MySQL Workbench
 
-Dataset
+## Dataset
 File: cleaned_orders.csv
 This file contains cleaned order-level data with the following columns:
 
@@ -17,7 +17,7 @@ Order_date: Date of the order
 
 Amount: Revenue from the order
 
-SQL Script
+## SQL Script
 File: monthly_sales_trend.sql
 This SQL script extracts:
 
@@ -27,7 +27,7 @@ Total revenue (sum of Amount)
 
 Total number of unique orders
 
-Results
+## Results
 File: monthly_sales_summary.csv
 Contains aggregated results grouped by year and month:
 
@@ -39,14 +39,14 @@ total_revenue
 
 total_orders
 
-Steps Followed
+## Steps Followed
 Cleaned the dataset to ensure valid date and amount formats.
 
 Used SQL to extract month/year and apply aggregation functions.
 
 Exported the result as a monthly trend report.
 
-Usage
+## Usage
 Load cleaned_orders.csv into your database table named orders.
 
 Run the SQL script monthly_sales_trend.sql.
